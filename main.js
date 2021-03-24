@@ -48,9 +48,6 @@ client.on('message', message =>{
     if(command === 'hello'){
        message.reply('Hi There !!');
     }
-    else if(command === 'bsdk'){
-       message.reply('Tmkc !!😒 <:crycat:771651706059751484>');
-    }
     else if(command === 'info'){
         message.channel.send('I Am A Discord Bot, Mantra Coded Me 😙');
         message.channel.send('Version: '+version);
@@ -60,10 +57,6 @@ client.on('message', message =>{
     }
     else if(command === 'link'){
         message.channel.send(link);
-    }
-    else if(command === 'sourcecode'){
-        const jscode = new attachment('/.main.js');
-        message.channel.send(message.author, jscode);
     }
     else if(command === 'maketxt'){
         if(!args[0]) return message.reply('You Have To Enter Text Content That You Want To Add In.');
