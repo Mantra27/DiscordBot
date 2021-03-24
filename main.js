@@ -2,7 +2,7 @@
 const fs = require('fs');
 
 const client = new Discord.Client();
-const token = 'NzY4MDg3ODQ4OTA4NzUwODU5.X47XjQ.kUC8MIElNNLunc9vT5pOn-JyZD4';
+const token = '';
 const prefix = '*';
 const link = 'https://discord.gg/FCXDYPc';
 const version = '1.4.4';
